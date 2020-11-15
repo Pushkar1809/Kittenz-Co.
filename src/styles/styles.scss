@@ -1,8 +1,4 @@
-@import "./variables";
-@import "./nav";
-@import "./hero";
-@import "./ngo";
-@import "./bout";
+@import "./variables", "./nav", "./hero", "./ngo", "./bout", "./footer";
 
 body {
   background: $primaryDark;

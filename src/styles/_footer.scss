@@ -1,0 +1,38 @@
+@import "./variables";
+
+footer {
+  width: 100vw;
+  height: 40vh;
+  background-color: $primaryLight;
+  ul {
+    li {
+      padding: 0.7rem 0rem;
+      a {
+        text-decoration: none;
+        color: $primaryDark;
+        font-family: $fontPrimary;
+        font-weight: 400;
+      }
+    }
+    list-style: none;
+    padding: 2rem 9rem 0rem 9rem;
+  }
+  .logo-and-social {
+    display: flex;
+    ul {
+      display: flex;
+      li {
+        padding: 0 2rem;
+        a {
+          color: $primaryDark;
+        }
+      }
+    }
+  }
+  .logo {
+    font-family: $fontLogo;
+    font-size: 4.5rem;
+    color: $primaryDark;
+    padding: 1rem 9rem;
+  }
+}

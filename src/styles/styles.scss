@@ -1,0 +1,9 @@
+@import "./variables";
+@import "./nav";
+@import "./hero";
+
+body {
+  background: $primaryDark;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,34 @@
+@import "./variables";
+
+.hero {
+  color: $primaryDark;
+  width: 100vw;
+  position: fixed;
+  background: url(../assets/banners/hero-kiity.jpg);
+  height: 90vh;
+  background-size: cover;
+  button {
+    font-family: $fontPrimary;
+    cursor: pointer;
+    font-weight: 800;
+    margin-left: 9rem;
+    border: none;
+    background-color: $accentDark;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 6rem;
+    font-size: 40px;
+    box-shadow: 0.2em 0.2em 0.5em;
+  }
+}
+
+.hero__title {
+  width: 45vw;
+  font-size: 100px;
+  padding: 0 9rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  span {
+    color: $accentDark;
+  }
+}

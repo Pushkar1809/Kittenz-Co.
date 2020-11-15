@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100wv;
+  height: 10vh;
+  background: #191923;
+  color: #f1e4e8;
+  font-family: "Spartan", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .nav__logo {
+  font-family: "Alex Brush", cursive;
+  margin-left: 9rem;
+  margin-right: 23rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 50px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+nav ul li {
+  padding: auto;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f1e4e8;
+}
+
+.hero {
+  color: #191923;
+  width: 100vw;
+  position: fixed;
+  background: url(../assets/banners/hero-kiity.jpg);
+  height: 90vh;
+  background-size: cover;
+}
+
+.hero button {
+  font-family: "Spartan", sans-serif;
+  cursor: pointer;
+  font-weight: 800;
+  margin-left: 9rem;
+  border: none;
+  background-color: #ff367c;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 6rem;
+  font-size: 40px;
+  -webkit-box-shadow: 0.2em 0.2em 0.5em;
+          box-shadow: 0.2em 0.2em 0.5em;
+}
+
+.hero__title {
+  width: 45vw;
+  font-size: 100px;
+  padding: 0 9rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.hero__title span {
+  color: #ff367c;
+}
+
+body {
+  background: #191923;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=styles.css.map */

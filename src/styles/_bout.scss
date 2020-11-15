@@ -1,0 +1,28 @@
+@import "./variables";
+
+.short-about {
+  width: 100vw;
+  height: 100vh;
+  h1 {
+    font-family: $fontPrimary;
+    padding: 7rem 9rem 2rem 9rem;
+    text-transform: capitalize;
+    color: $primaryLight;
+    font-size: 60px;
+  }
+  span {
+    color: $accentDark;
+  }
+  .bout__body {
+    display: flex;
+    padding: 4rem 9rem;
+    p {
+      color: $primaryLight;
+      font-family: $fontPrimary;
+      margin-right: 15rem;
+    }
+    img {
+      width: 24rem;
+    }
+  }
+}

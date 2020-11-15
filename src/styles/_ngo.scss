@@ -1,0 +1,46 @@
+@import "./variables";
+
+.ngo {
+  width: 100vw;
+  height: 100vh;
+  h1 {
+    font-family: $fontPrimary;
+    padding: 7rem 9rem 2rem 9rem;
+    text-transform: capitalize;
+    color: $primaryLight;
+    font-size: 60px;
+  }
+  span {
+    color: $accentDark;
+  }
+  .ngo__body {
+    display: flex;
+    padding: 4rem 9rem;
+    img {
+      width: 24rem;
+      height: 16rem;
+      margin-right: 15rem;
+    }
+    section {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      p {
+        color: $primaryLight;
+        font-family: $fontPrimary;
+      }
+      button {
+        margin-top: 4rem;
+        border: none;
+        font-family: $fontPrimary;
+        width: 60%;
+        height: 4rem;
+        font-size: 25px;
+        background-color: $accentDark;
+        border-radius: 1rem;
+        font-weight: 700;
+        box-shadow: 0.2em 0.2em 0.5em;
+      }
+    }
+  }
+}

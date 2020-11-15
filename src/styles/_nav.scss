@@ -2,14 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
 
 nav {
-  position: sticky;
-  width: 100wv;
+  position: fixed;
+  width: 100%;
   height: 10vh;
   background: $primaryDark;
   color: $primaryLight;
   font-family: $fontPrimary;
   .nav__logo {
     font-family: $fontLogo;
+    font-weight: 200;
     margin-left: 9rem;
     margin-right: 23rem;
     margin-top: 0.5rem;

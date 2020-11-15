@@ -1,15 +1,15 @@
 @import "./variables";
 
 .hero {
-  color: $primaryDark;
   width: 100vw;
-  position: fixed;
   background: url(../assets/banners/hero-kiity.jpg);
-  height: 90vh;
+  height: 100vh;
+  padding: auto;
   background-size: cover;
   button {
     font-family: $fontPrimary;
     cursor: pointer;
+    color: $primaryDark;
     font-weight: 800;
     margin-left: 9rem;
     border: none;
@@ -23,9 +23,11 @@
 }
 
 .hero__title {
+  padding: 9rem 9rem 2rem 9rem;
+  color: $primaryDark;
+  margin: 0;
   width: 45vw;
   font-size: 100px;
-  padding: 0 9rem;
   text-transform: uppercase;
   letter-spacing: 5px;
   span {

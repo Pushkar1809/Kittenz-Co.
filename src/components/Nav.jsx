@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
 class Nav extends Component {
   state = {
     links: [
-      { id: 1, value: "Home" },
-      { id: 2, value: "Kitties" },
-      { id: 3, value: "Contact" },
-      { id: 4, value: "About" },
+      { id: 1, to: "/", value: "Home" },
+      { id: 2, to: "/shop", value: "Kitties" },
+      { id: 3, to: "/contact", value: "Contact" },
+      { id: 4, to: "/about", value: "About" },
     ],
   };
   render() {
@@ -16,7 +17,7 @@ class Nav extends Component {
         <ul className="nav__links">
           {this.state.links.map((link) => (
             <li key={this.state.links.id}>
-              <Link to="/{link.value}">{link.value}</Link>
+              <Link to={link.to}>{link.value}</Link>
             </li>
           ))}
         </ul>

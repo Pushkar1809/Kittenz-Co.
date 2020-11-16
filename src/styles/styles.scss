@@ -1,7 +1,9 @@
-@import "./variables", "./nav", "./hero", "./ngo", "./bout", "./footer";
+@import "./variables", "./nav", "./hero", "./ngo", "./bout", "./footer",
+  "./about";
 
 body {
   background: $primaryDark;
   padding: 0;
   margin: 0;
+  font-family: $fontPrimary;
 }

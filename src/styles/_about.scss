@@ -1,0 +1,44 @@
+@import "./variables";
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 9rem 2rem 9rem;
+  h1 {
+    font-family: $fontPrimary;
+    padding: 2rem 0 2rem 0;
+    text-transform: capitalize;
+    color: $primaryLight;
+    font-size: 4rem;
+    span {
+      color: $accentDark;
+    }
+  }
+  article {
+    width: 100%;
+    display: flex;
+    margin-bottom: 9rem;
+    align-items: center;
+    h1 {
+      margin: 0;
+      padding-top: 0;
+      font-size: 2.5rem;
+    }
+    p {
+      color: $primaryLight;
+    }
+  }
+}
+
+#left img {
+  margin-right: 15rem;
+}
+
+#right img {
+  margin-left: 15rem;
+}
+
+.article__img {
+  width: 24rem;
+  height: 20rem;
+}

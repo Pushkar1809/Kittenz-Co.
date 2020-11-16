@@ -13,7 +13,9 @@ class Nav extends Component {
   render() {
     return (
       <nav>
-        <div className="nav__logo">Kittenz Co.</div>
+        <div className="nav__logo">
+          Kittenz <span>Co.</span>
+        </div>
         <ul className="nav__links">
           {this.state.links.map((link) => (
             <li key={this.state.links.id}>

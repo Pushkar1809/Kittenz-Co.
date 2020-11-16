@@ -5,3 +5,24 @@ $accentLight: #6461a0;
 
 $fontLogo: "Alex Brush", cursive;
 $fontPrimary: "Spartan", sans-serif;
+
+@mixin BtnHover() {
+  transition: 0.4s;
+  &:hover {
+    background: $primaryDark;
+    border: $accentDark solid 2px;
+    color: $accentDark;
+    box-shadow: $accentDark;
+  }
+}
+
+@mixin HeadStyles() {
+  font-family: $fontPrimary;
+  padding: 2rem 0 2rem 0;
+  text-transform: capitalize;
+  color: $primaryLight;
+  font-size: 4rem;
+  span {
+    color: $accentDark;
+  }
+}

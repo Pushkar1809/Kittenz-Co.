@@ -4,14 +4,9 @@
   width: 100vw;
   height: 100vh;
   h1 {
-    font-family: $fontPrimary;
-    padding: 7rem 9rem 2rem 9rem;
-    text-transform: capitalize;
-    color: $primaryLight;
-    font-size: 60px;
-  }
-  span {
-    color: $accentDark;
+    @include HeadStyles();
+    margin-left: 9rem;
+    margin-top: 4rem;
   }
   .ngo__body {
     display: flex;
@@ -31,6 +26,7 @@
       }
       button {
         margin-top: 4rem;
+        cursor: pointer;
         border: none;
         font-family: $fontPrimary;
         width: 60%;
@@ -40,6 +36,7 @@
         border-radius: 1rem;
         font-weight: 700;
         box-shadow: 0.2em 0.2em 0.5em;
+        @include BtnHover();
       }
     }
   }

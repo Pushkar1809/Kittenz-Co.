@@ -5,14 +5,7 @@
   flex-direction: column;
   padding: 4rem 9rem 2rem 9rem;
   h1 {
-    font-family: $fontPrimary;
-    padding: 2rem 0 2rem 0;
-    text-transform: capitalize;
-    color: $primaryLight;
-    font-size: 4rem;
-    span {
-      color: $accentDark;
-    }
+    @include HeadStyles();
   }
   article {
     width: 100%;
@@ -28,17 +21,17 @@
       color: $primaryLight;
     }
   }
-}
 
-#left img {
-  margin-right: 15rem;
-}
+  #left img {
+    margin-right: 15rem;
+  }
 
-#right img {
-  margin-left: 15rem;
-}
+  #right img {
+    margin-left: 15rem;
+  }
 
-.article__img {
-  width: 24rem;
-  height: 20rem;
+  .article__img {
+    width: 24rem;
+    height: 20rem;
+  }
 }

@@ -19,6 +19,7 @@
     height: 6rem;
     font-size: 40px;
     box-shadow: 0.2em 0.2em 0.5em;
+    @include BtnHover();
   }
 }
 

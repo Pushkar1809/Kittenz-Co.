@@ -12,6 +12,11 @@ footer {
         color: $primaryDark;
         font-family: $fontPrimary;
         font-weight: 400;
+        transition: 0.4s;
+        &:hover {
+          text-decoration: underline;
+          color: $accentDark;
+        }
       }
     }
     list-style: none;
@@ -34,5 +39,8 @@ footer {
     font-size: 4.5rem;
     color: $primaryDark;
     padding: 1rem 9rem;
+    span {
+      color: $accentDark;
+    }
   }
 }

@@ -4,14 +4,8 @@
   width: 100vw;
   height: 100vh;
   h1 {
-    font-family: $fontPrimary;
-    padding: 7rem 9rem 2rem 9rem;
-    text-transform: capitalize;
-    color: $primaryLight;
-    font-size: 60px;
-  }
-  span {
-    color: $accentDark;
+    @include HeadStyles();
+    margin-left: 9rem;
   }
   .bout__body {
     display: flex;
